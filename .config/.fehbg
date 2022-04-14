@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-scale '/home/wessel/.config/wallpapers/002 - [16x9] GHARLIERA - CYBERPUNK WORKPIECES (inverted).png' 

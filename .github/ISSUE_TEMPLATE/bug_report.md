@@ -1,6 +1,6 @@
 ---
 name: Bug Report
-about: Report an issue with $(PROJECT_NAME)
+about: Report an issue with void
 title: "[BUG] Bug summed up in 1 sentence"
 labels: bug
 assignees: Wessel
@@ -11,14 +11,12 @@ assignees: Wessel
 
 
 **Include a reproducible code sample here, if possible:**
-```js
+```sh
 // Place your code here
 ```
 
 **Further details:**
-- $(PROJECT_NAME) version:
-- Node.js version:
-- Operating system:
+- Arch version:
 
 <!--
 If this applies to you, please check the respective checkbox: [ ] becomes [x].
