@@ -24,8 +24,7 @@ To update:
 
 > Void
 
-[![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](/LICENSE)
-
+[![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](/LICENSE)[![Arch pass](https://img.shields.io/badge/Arch-Pass-brightgreen?style=flat-square)](/LICENSE)[![Debian Pass](https://img.shields.io/badge/Debian-Pass-brightgreen?style=flat-square)](/LICENSE)[![RHEL Pass](https://img.shields.io/badge/RHEL-Pass-brightgreen?style=flat-square)](/LICENSE)
 A collection of dotfiles I use on my Linux systems.
 
 <br><br>
