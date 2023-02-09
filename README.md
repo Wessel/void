@@ -67,7 +67,9 @@ This repo have been tested and confirmed to be working on the following distros:
 
 ## Installation command
 <details>
+
 <summary>Arch Linux</summary>
+
 1. Install [yay](https://github.com/Jguer/yay) (superior package manager)
 ```sh
 sudo pacman -S --needed git base-devel
@@ -91,4 +93,5 @@ Or do everything at once with the following command:
 ```sh
 pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si && yay -Syyu && yay -S xorg-server xorg-apps fish neofetch ranger feh bashtop htop && echo /usr/local/bin/fish | sudo tee -a /etc/shells && chsh -s /usr/local/bin/fish && curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 ```
+
 </details>
