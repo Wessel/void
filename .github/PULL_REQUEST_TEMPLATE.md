@@ -1,6 +1,6 @@
 ---
 name: Pull Request
-about: Propose changes to void
+about: Propose changes to Void
 title: "[PR] Your changes"
 labels: pullrequest
 assignees: Wessel
@@ -14,6 +14,6 @@ assignees: Wessel
 - [ ] Code changes have been tested and there aren't any typos in it
 
 **Semantic versioning classification:**
-- [ ] This PR changes void core codebase (methods or parameters added)
+- [ ] This PR changes Void core codebase (methods or parameters added)
   - [ ] This PR includes breaking changes (methods removed or renamed, parameters moved or removed)
 - [ ] This PR **only** includes non-code changes, like changes to documentation, README, etc.

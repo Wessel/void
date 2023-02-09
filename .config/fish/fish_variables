@@ -1,6 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
-SETUVAR BROWSER:google\x2dchrome\x2dstable
+SETUVAR BROWSER:vivaldi-stable
 SETUVAR FILEBROWSER:ranger
 SETUVAR TERMINAL:st
 SETUVAR __fish_init_2_3_0:\x1d
