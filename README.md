@@ -64,30 +64,31 @@ This repo have been tested and confirmed to be working on the following distros:
 | [feh](https://github.com/derf/feh) | Background manager |
 | [Bashtop](https://github.com/aristocratos/bashtop)/[htop](https://github.com/htop-dev/htop/)  | Resource watcher |
 
+
 ## Installation command
 <details>
-  <summary>Arch Linux</summary>
-  1. Install [yay](https://github.com/Jguer/yay) (superior package manager)
-    ```sh
-    sudo pacman -S --needed git base-devel
-    git clone https://github.com/Jguer/yay.git
-    cd yay
-    makepkg -si
-    ```
-    2. Update mirrors and install packages
-      ```sh
-      yay -Syyu
-      yay -S xorg-server xorg-apps fish neofetch ranger feh bashtop htop
-      ```
-    3. Set default shell to fish and install Oh My Fish
-      ```sh
-      echo /usr/local/bin/fish | sudo tee -a /etc/shells
-      chsh -s /usr/local/bin/fish
-      curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
-      ```
+<summary>Arch Linux</summary>
+1. Install [yay](https://github.com/Jguer/yay) (superior package manager)
+```sh
+sudo pacman -S --needed git base-devel
+git clone https://github.com/Jguer/yay.git
+cd yay
+makepkg -si
+```
+2. Update mirrors and install packages
+```sh
+yay -Syyu
+yay -S xorg-server xorg-apps fish neofetch ranger feh bashtop htop
+```
+3. Set default shell to fish and install Oh My Fish
+```sh
+echo /usr/local/bin/fish | sudo tee -a /etc/shells
+chsh -s /usr/local/bin/fish
+curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+```
 
-    Or do everything at once with the following command:
-    ```sh
-    pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si && yay -Syyu && yay -S xorg-server xorg-apps fish neofetch ranger feh bashtop htop && echo /usr/local/bin/fish | sudo tee -a /etc/shells && chsh -s /usr/local/bin/fish && curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
-    ```
+Or do everything at once with the following command:
+```sh
+pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si && yay -Syyu && yay -S xorg-server xorg-apps fish neofetch ranger feh bashtop htop && echo /usr/local/bin/fish | sudo tee -a /etc/shells && chsh -s /usr/local/bin/fish && curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+```
 </details>
