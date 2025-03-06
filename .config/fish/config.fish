@@ -4,12 +4,19 @@
 
 set -g -x fish_greeting ''
 set -U os (uname)
-set -U TERMINAL "st"
+set -U TERMINAL "kitty"
 
 # Aliases / Shortcuts
 
+# zoxide
+export FZF_DEFAULT_OPTS='--height 40%'
+
 # dwmblocks
-export PATH="$PATH:/home/wessel/.local/bin/statusbar:/home/wessel/.local/bin/"
+fish_add_path --path $HOME/.local/bin/statusbar/
+fish_add_path --path $HOME/.local/bin/
+
+# shortcut for shutdown
+alias cya="shutdown now"
 
 # Automatically set a default User-Agent header
 alias curl="curl -H \"User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0\" "
@@ -19,19 +26,20 @@ alias wget="wget --header=\"User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:68.0)
 alias ct="curl \"https://httpbin.org/get\" >> curl.json"
 alias wt="wget \"https://httpbin.org/get\" -d -O wget.json -o wget.log"
 
-alias py="python "
-alias v="nvim "
-alias r="ranger "
+# common aliases
+alias py="python"
+alias v="nvim"
+alias vi="nvim"
+alias r="ranger"
 
-alias ka="killall"
-alias cya="shutdown now"
 
-# exa, a coloured ls alternative
-alias ls="exa "
-alias la="exa -la"
+# eza, an exa alternative, a coloured ls alternative
+alias ls="eza "
+alias la="eza -la"
 alias ols="/usr/bin/ls"
 alias olsc="/usr/bin/ls -hN --color=auto --group-directories-first"
 
+# pacman aliases
 alias pacman="sudo pacman "
 alias upc="sudo pacman -Syu; pkill -RTMIN+8 dwmblocks"
 alias lsp="pacman -Qett | less" #--color=always 
@@ -42,16 +50,13 @@ alias grep="grep --color=auto "
 alias ccat="highlight --out-format=ansi"
 
 # Show system information
-alias show="inxi -vvG && neofetch"
+alias show="inxi -vvG && fastfetch"
 
 # Download videos
 alias yt="yt-dlp --add-metadata -i -o '%(upload_date)s-%(title)s.%(ext)s'"
 alias yta="yt -x -f bestaudio/best"
 
 alias ref="shortcuts >/dev/null; source ~/.config/shortcutrc"
-
-# Set vivaldi-stable to vivaldi for xdg-open
-alias vivaldi="vivaldi-stable"
 
 # Use neovim for vim if present
 command -v nvim >/dev/null && alias vim="nvim" vimdiff="nvim -d"

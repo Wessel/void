@@ -1,43 +1,17 @@
-<!---
-To update:
-  project.
-    master        - The master org or user of the repo
-    linter        - The linter used for the project
-    name          - Project name
-    lang          - The (primary) programming language used
-    logo          - Project logo
-    contact       - All ways to contact for any inqueries
-    reviewers     - A list of users to auto-assign to issues and features
-  info.
-    toc           - Table of Contents of README
-    desc          - Small project description
-    badges        - Any extra badges
-  setup.
-    prerequisites - The prerequisites needed to run the project
-    install       - Command for initial installation
-    test          - Command for running tests
-  tree.
-    parts         - All individual parts of the project
---->
 <img src="https://avatars.githubusercontent.com/u/29184334?v=4" align="left" width="192px" height="192px"/>
 <img align="left" width="0" height="192px" hspace="10"/>
 
-> Void
+**Void.**
 
 [![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](/LICENSE)
 [![Arch pass](https://img.shields.io/badge/Arch-Pass-brightgreen?style=flat-square)](/)
 [![RHEL Pass](https://img.shields.io/badge/RHEL-Pass-brightgreen?style=flat-square)](/)
 [![Debian Pass](https://img.shields.io/badge/Debian-Pass-brightgreen?style=flat-square)](/)
 
-A collection of dotfiles I use on my Linux systems.
+A collection of dotfiles, scripts and utilities I use on my Linux systems.
 
-<br><br>
+<br><br><br>
 
-<!---
-Example table of contents:
-* header
-  * sub header
---->
 ## Table of contents
 * System tests
 * Packages
@@ -54,16 +28,15 @@ This repo have been tested and confirmed to be working on the following distros:
 
 # Packages
 ## Package List
-| Package | Use Case |
-| ------------- | ------------- |
-| [Fishshell](https://github.com/fish-shell/fish-shell) + [omf](https://github.com/oh-my-fish/oh-my-fish) | Custom shell |
-| [Neofetch](https://github.com/dylanaraps/neofetch) | Get system information |
-| [Exa](https://github.com/ogham/exa) | LS replacement (stylized) |
-| Xorg | Display server |
-| [Ranger](https://github.com/ranger/ranger) | TUI file browser |
-| [feh](https://github.com/derf/feh) | Background manager |
-| [Bashtop](https://github.com/aristocratos/bashtop)/[htop](https://github.com/htop-dev/htop/)  | Resource watcher |
-
+[kitty](https://github.com/kovidgoyal/kitty)
+[fish](https://github.com/fish-shell/fish-shell)
+[omf](https://github.com/oh-my-fish/oh-my-fish)
+[btop](https://github.com/aristocratos/btop)
+[fastfetch](https://github.com/fastfetch-cli/fastfetch)
+[eza](https://github.com/eza-community/eza)
+[ranger](https://github.com/ranger/ranger)
+[feh](https://github.com/derf/feh)
+[neovim](https://github.com/neovim/neovim)
 
 ## Installation command
 <details>

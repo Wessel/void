@@ -1,15 +1,3 @@
 [submodule ".config/ranger/plugins/ranger_devicons"]
 	path = .config/ranger/plugins/ranger_devicons
 	url = https://github.com/alexanderjeurissen/ranger_devicons
-[submodule "dwm/dwm"]
-	path = dwm/dwm
-	url = https://github.com/Wessel/dwm
-[submodule "dwm/st"]
-	path = dwm/st
-	url = https://github.com/Wessel/st
-[submodule "dwm/dmenu"]
-	path = dwm/dmenu
-	url = https://github.com/Wessel/dmenu
-[submodule "dwm/dwmblocks"]
-	path = dwm/dwmblocks
-	url = https://github.com/Wessel/dwmblocks
