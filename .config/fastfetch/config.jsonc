@@ -1,0 +1,131 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        // "type": "builtin",
+        // "source": "arch"
+        "type": "kitty",
+        "source": "/home/$USER/.config/neofetch/logo.png",
+        "width": 35
+    },
+    "display": {
+      "separator": ""
+    },
+    "modules": [
+      {
+        "type": "title",
+        "key": "  ",
+        "keyWidth": 19
+      },
+      {
+        "type": "custom",
+        "format": "\u001b[34m╭────────────────── \u001b[32mSoftware\u001b[34m ──────────────────\u001b[0m"
+      },
+      {
+        "type": "os",
+        "key": "\u001b[34m│\u001b[38;36m OS",
+        "keyWidth": 14,
+        "format": "Arch Linux ({12})"
+      },
+      {
+        "type": "kernel",
+        "key": "\u001b[34m│\u001b[38;36m Kernel",
+        "keyWidth": 14
+      },
+      {
+        "type": "packages",
+        "key": "\u001b[34m│\u001b[38;36m Packages",
+        "keyWidth": 14,
+        "format": "{} (pacman)"
+      },
+      {
+        "type": "de",
+        "keyWidth": 14,
+        "key": "\u001b[34m│\u001b[38;36m DE"
+      },
+      {
+        "type": "wm",
+        "key": "\u001b[34m│\u001b[38;36m WM",
+        "keyWidth": 14
+      },
+      {
+        "type": "shell",
+        "key": "\u001b[34m│\u001b[38;36m Shell",
+        "keyWidth": 14
+      },
+      {
+        "type": "terminal",
+        "key": "\u001b[34m│\u001b[38;36m Terminal",
+        "keyWidth": 14
+      },
+      {
+        "type": "localip",
+        "key": "\u001b[34m│\u001b[38;36m IP",
+        "keyWidth": 14
+      },
+      {
+        "type": "custom",
+        "format": "\u001b[34m├────────────────── \u001b[32mHardware\u001b[34m ──────────────────"
+      },
+      {
+        "type": "cpu",
+        "key": "\u001b[34m│\u001b[38;36m CPU",
+        "keyWidth": 14
+      },
+      {
+        "type": "gpu",
+        "key": "\u001b[34m│\u001b[38;36m GPU",
+        "keyWidth": 14
+      },
+      {
+        "type": "memory",
+        "key": "\u001b[34m│\u001b[38;36m Memory",
+        "keyWidth": 14
+      },
+      {
+        "type": "disk",
+        "key": "\u001b[34m│\u001b[38;36m Disk",
+        "keyWidth": 14
+      },
+      {
+        "type": "custom",
+        "format": "\u001b[34m├────────────────── \u001b[32mUptime\u001b[34m ────────────────────"
+      },
+      {
+        "type": "uptime",
+        "key": "\u001b[34m│\u001b[38;36m Uptime",
+        "keyWidth": 14
+      },
+      {
+        "type": "custom",
+        "format": "\u001b[34m╰──────────────────────────────────────────────\u001b[0m"
+      },
+      {
+        "type": "custom",
+        "format": "\u001b[32m I use Arch btw"
+      }
+        // "host",
+        // "kernel",
+        // "uptime",
+
+        // "shell",
+        // "display",
+        // "de",
+        // "wm",
+        // "wmtheme",
+        // "theme",
+        // "icons",
+        // "font",
+        // "cursor",
+        // "terminal",
+        // "terminalfont",
+        // "cpu",
+        // "gpu",
+        // "memory",
+        // "disk",
+        // "battery",
+        // "poweradapter",
+        // "locale",
+        // "break",
+        // "colors"
+    ]
+}

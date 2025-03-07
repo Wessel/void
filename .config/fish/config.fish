@@ -5,6 +5,12 @@
 set -g -x fish_greeting ''
 set -U os (uname)
 set -U TERMINAL "kitty"
+export GPG_TTY=$(tty)
+
+# Scaling for hidpi
+set -x QT_SCALE_FACTOR 1.5
+set -x GDK_SCALE 1.5
+export DEBUGINFOD_URLS="https://debuginfod.archlinux.org"
 
 # Aliases / Shortcuts
 
@@ -32,6 +38,8 @@ alias v="nvim"
 alias vi="nvim"
 alias r="ranger"
 
+# LaTeX
+alias texmk="latexmk -synctex=1 -interaction=nonstopmode -file-line-error -pdf -outdir=./tmp main.tex --shell-escape"
 
 # eza, an exa alternative, a coloured ls alternative
 alias ls="eza "
@@ -42,7 +50,7 @@ alias olsc="/usr/bin/ls -hN --color=auto --group-directories-first"
 # pacman aliases
 alias pacman="sudo pacman "
 alias upc="sudo pacman -Syu; pkill -RTMIN+8 dwmblocks"
-alias lsp="pacman -Qett | less" #--color=always 
+alias lsp="pacman -Qett | less" #--color=always
 
 # Set colours default for commands
 alias diff="diff --color=auto "
